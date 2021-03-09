@@ -15,4 +15,3 @@ after_success:
   - docker build -t multi-container-server   ./server
   - docker build -t multi-container-worker   ./worker
   
-  
